@@ -1,0 +1,9 @@
+include: fedora-custom.yaml
+ref: fedora/37/${basearch}/custom-silverblue-pc
+rojig:
+  name: fedora-custom-silverblue-pc
+  summary: "PC Custom Fedora Silverblue base image"
+  license: MIT
+packages:
+  - akmod-nvidia 
+  - xorg-x11-drv-nvidia

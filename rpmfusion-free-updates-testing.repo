@@ -1,0 +1,28 @@
+[rpmfusion-free-updates-testing]
+name=RPM Fusion for Fedora 37 - Free - Test Updates
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/testing/37/$basearch/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-testing-37&arch=$basearch
+enabled=0
+enabled_metadata=0
+type=rpm-md
+gpgcheck=1
+repo_gpgcheck=0
+
+[rpmfusion-free-updates-testing-debuginfo]
+name=RPM Fusion for Fedora 37 - Free - Test Updates Debug
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/testing/37/$basearch/debug/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-testing-debug-37&arch=$basearch
+enabled=0
+type=rpm-md
+gpgcheck=1
+repo_gpgcheck=0
+
+[rpmfusion-free-updates-testing-source]
+name=RPM Fusion for Fedora 37 - Free - Test Updates Source
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/testing/37/SRPMS/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-testing-source-37&arch=$basearch
+enabled=0
+type=rpm-md
+gpgcheck=1
+repo_gpgcheck=0
+

@@ -1,0 +1,21 @@
+include: upstream/fedora-silverblue.yaml
+ref: fedora/37/${basearch}/custom-silverblue
+rojig:
+  name: fedora-custom-silverblue
+  summary: "Custom Fedora Silverblue base image"
+  license: MIT
+packages:
+  - vim
+  - openfortivpn
+  - distrobox
+  - zsh
+  - tmux
+  - wireguard-tools
+  - gnome-shell-extension-pop-shell
+repos:
+  - rpmfusion-free
+  - rpmfusion-free-updates
+  - rpmfusion-free-updates-testing
+  - rpmfusion-nonfree
+  - rpmfusion-nonfree-updates
+  - rpmfusion-nonfree-updates-testing
