@@ -12,6 +12,8 @@ packages:
   - tmux
   - wireguard-tools
   - gnome-shell-extension-pop-shell
+  - ansible
+  - sshpass
 repos:
   - rpmfusion-free
   - rpmfusion-free-updates
